@@ -1,19 +1,19 @@
 # email-survey
 
-Express + React web application for simple feedback collect
+Express + React redux + MongoDB web application for simple feedback collect.
 
-Prerequisites
-Node.js and Npm
-Google Oauth Key
-Sendgrid Key
-Stripe Key
-Mongodb Link
+## Prerequisites
++ Node.js and Npm
++ Google Oauth Key
++ Sendgrid Key
++ Stripe Key
++ Mongodb Link
 
-Installing
+## Installing
 cd into the server and client folder and install by npm 
-$ npm install 
+`$ npm install `
 
 
-Running
+## Running
 Running the script by 
-$ npm run dev
+`$ npm run dev`
