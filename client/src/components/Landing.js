@@ -16,7 +16,7 @@ class Landing extends Component {
 	render() {
 		return (
 			<div style={landingStyle}>
-				<div style={{margin: "40% 0"}}>
+				<div style={{margin: "30vh 0"}}>
 					<h1>Email - Survey</h1>
 					<h6>User feedback collect tool</h6>
 					{this.renderButton()}
