@@ -1,6 +1,8 @@
 module.exports = {
 	GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
 	GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET,
+	FB_APP_ID: process.env.FB_APP_ID,
+	FB_APP_SECRET: process.env.FB_APP_SECRET,
 	MONGO_URI: process.env.MONGO_URI,
 	SESSION_KEY: process.env.SESSION_KEY,
 	STRIPE_PUBLISHABLE_KEY: process.env.STRIPE_PUBLISHABLE_KEY,
