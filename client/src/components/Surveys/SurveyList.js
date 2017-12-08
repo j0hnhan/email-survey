@@ -10,15 +10,18 @@ class SurveyList extends Component {
 	renderList() {
 		return this.props.surveys.map(survey => {
 			return (
-				<div class="card darken-2">
-					<div class="card-content">
-						<span class="card-title">{survey.title}</span>
+				<div key={survey._id} className="card darken-2">
+					<div className="card-content">
+						<span className="card-title">{survey.title}</span>
 						<p>{survey.body}</p>
 						<p className="right">{new Date(survey.dateSent).toLocaleString()}</p>
 					</div>
-					<div class="card-action">
+					<div className="card-action">
 						<a>Yes: {survey.yes} </a>
 						<a>No: {survey.no} </a>
+						<button className="btn darken-2 red right" style={{marginTop:"-7px"}} onClick={() => this.props.deleteSurvey(survey._id)}>
+							Delete
+						</button>
 					</div>
 				</div>
 			);

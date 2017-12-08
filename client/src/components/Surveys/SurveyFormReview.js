@@ -7,7 +7,6 @@ import formFields from "./formFields";
 import * as actions from "../../actions";
 
 const SurveyFormReview = props => {
-	console.log(props);
 	const reviewFields = _.map(formFields, ({ name, label }) => {
 		return (
 			<div key={name}>
